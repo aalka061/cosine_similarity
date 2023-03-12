@@ -1,0 +1,23 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    builder (3.2.4)
+    crack (0.4.5)
+      rexml
+    ds (0.0.7)
+    nlp (0.2.8)
+      ds
+      savon (= 0.7.9)
+    rexml (3.2.5)
+    savon (0.7.9)
+      builder (>= 2.1.2)
+      crack (>= 0.1.4)
+
+PLATFORMS
+  x86_64-linux
+
+DEPENDENCIES
+  nlp
+
+BUNDLED WITH
+   2.3.7
